@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css?family=Courgette');
+#main{
+    background-image:url('news.jpg');
+    background-size: cover;
+} 
+#btn1{
+    background-color: rgba(0, 0,0, 0);
+    color: white;
+    border:none;
+}
+#btn2{
+    background-color: rgba(0, 0,0, 0);
+    color: white;
+    border:none;
+}
+#button2{
+    font-family: Ubuntu;
+    border-radius: 10px;
+    border: none;
+    background-color: black;
+    width: 5rem;
+    height: 2rem;
+    color: white;
+}
+#button3{
+    font-family: Ubuntu;
+    border-radius: 10px;
+    border: none;
+    background-color: black;
+    width: 5rem;
+    height: 2rem;
+    color: white;
+    margin-left: 5%;
+}
+.div1{
+    display: none;
+    position: absolute;
+    top: 20%;
+    left: 34.5%;
+    background-color:white;
+    height: 60%;
+    width: 30%;
+    border-radius:10px;
+    box-shadow: 0px 5px 15px 10px #545454;
+    }
+#form1{
+    display: none;
+    position: absolute;
+    top: 20%;
+    left: 34.5%;
+    background-color:white;
+    height: 60%;
+    width: 30%;
+    border-radius:10px;
+    box-shadow: 0px 5px 15px 10px #545454;
+}
+.input1{
+ height: 1.975rem;
+    border: none;
+    border-bottom-style: solid;
+    border-bottom-color: black;
+    background-color: transparent;
+    margin-bottom:1%;
+    margin-left:13%;
+    outline: none;
+    width: 15.625rem;
+}
+#button4{
+    font-family: Ubuntu;
+    border-radius: 10px;
+    border: none;
+    background-color: black;
+    height: 2rem;
+    width: 5rem;
+    color: white;
+    margin-left: 25%;
+    margin-top:4% ;
+}
+#button5{
+    font-family: Ubuntu;
+    border-radius: 10px;
+    border: none;
+    background-color: black;
+    height: 2rem;
+    width: 5rem;
+    color: white;
+    margin-left: 5%;
+    margin-top: 4%;
+}
+#content{
+    transition: 1s;
+}
+#content:hover{
+    transform: scale(1.1);
+}
+
+#a1:hover{
+    color: blue;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }  
